@@ -1,6 +1,16 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <math.h>
+#include <stddef.h>
+
 /*
  * Authors : Marvin Kurland.
  *		Samuel EKati.
@@ -47,5 +57,6 @@ size_t _printlist(const stack_t *node);
 size_t _lennode(const stack_t *node);
 stack_t *_addnode(stack_t **head, const int node);
 stack_t *_addend(stack_t **head, const int n);
+void _freenodes(stack_t *head);
 
 #endif
