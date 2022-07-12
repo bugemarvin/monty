@@ -39,4 +39,13 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/*
+ * Creating doubly linked list.
+ */
+
+size_t _printlist(const stack_t *node);
+size_t _lennode(const stack_t *node);
+stack_t *_addnode(stack_t **head, const int node);
+stack_t *_addend(stack_t **head, const int n);
+
 #endif
