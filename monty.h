@@ -50,6 +50,10 @@ typedef struct instruction_s
 } instruction_t;
 
 /*
+ * declaring global variables.
+ */
+
+/*
  * Creating doubly linked list.
  */
 
@@ -62,8 +66,7 @@ void _freenodes(stack_t *head);
 /*
  * implementing stack operations.
  */
-
-void createstack(void);
+void _createstack(void);
 void _pushstack(int node);
 int _popstack(void);
 int _lenstack(void);

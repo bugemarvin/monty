@@ -8,7 +8,7 @@
  *		if not enpty.
  */
 
-size_t _printlist(const stack_t *node);
+size_t _printlist(const stack_t *node)
 {
 	size_t a;
 		for (a = 0; node != NULL; a++)
