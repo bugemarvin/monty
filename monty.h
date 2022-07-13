@@ -59,4 +59,16 @@ stack_t *_addnode(stack_t **head, const int node);
 stack_t *_addend(stack_t **head, const int n);
 void _freenodes(stack_t *head);
 
+/*
+ * implementing stack operations.
+ */
+
+void createstack(void);
+void _pushstack(int node);
+int _popstack(void);
+int _lenstack(void);
+int _emptystack(void);
+int _fullstack(void);
+void _printstack(void);
+
 #endif
