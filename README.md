@@ -5,7 +5,7 @@ Creating stacks in `C` language Data structures.
 git clone https://github.com/bugemarvin/monty
 ```
 ```
-./makefile
+gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 ```
 
 ## The Monty language
