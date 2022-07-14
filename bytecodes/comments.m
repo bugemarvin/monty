@@ -1,6 +1,0 @@
-push 0
-push 1
-push 2
-push 3
-   #printing the stack now
-pall
