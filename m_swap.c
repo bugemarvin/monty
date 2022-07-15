@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * m_swap - swap top two elements of `stack'

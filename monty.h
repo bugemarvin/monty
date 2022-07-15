@@ -1,8 +1,11 @@
 #ifndef MONTY_H
 #define MONTY_H
+<<<<<<< HEAD
 
 #define _POSIX_C_SOURCE  200809L
 #define _GNU_SOURCE
+=======
+>>>>>>> 9fdf5f962231deaa83ed144e96a01e42af7ed17b
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -11,6 +14,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <ctype.h>
+#include <string.h>
 
 /**
  * struct var_s - struct to contain the main variables of the Monty interpreter
