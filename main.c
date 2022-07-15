@@ -1,6 +1,5 @@
 #include "monty.h"
 
-/* global struct to hold flag for queue and stack length */
 var_t var;
 
 /**
@@ -10,6 +9,7 @@ var_t var;
  *
  * Return: EXIT_SUCCESS on success or EXIT_FAILURE on failure
  */
+
 int main(int argc, char *argv[])
 {
 	stack_t *stack = NULL;

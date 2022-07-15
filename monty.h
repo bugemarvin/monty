@@ -1,11 +1,11 @@
 #ifndef MONTY_H
 #define MONTY_H
-<<<<<<< HEAD
+/*
+ * Macros section.
+ */
 
 #define _POSIX_C_SOURCE  200809L
 #define _GNU_SOURCE
-=======
->>>>>>> 9fdf5f962231deaa83ed144e96a01e42af7ed17b
 
 #include <stdlib.h>
 #include <stdio.h>
